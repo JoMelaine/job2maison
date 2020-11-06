@@ -1,0 +1,269 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import 'login';
+@import 'infos';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css');
+.images{
+    /* background-image: url(/images/gouvernante.jpg?1d1a52d253ebba0dab9ffb5d8b3eb11a);
+    background-color: #cccccc; */
+    /* background-image: url(/images/menu.gif?d15729488cfec612b10f7b1b30951c5d); */
+}
+
+input{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.contenu {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background: #20123a;
+    .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    .center{
+        position: absolute;
+        top: 40%;
+        .p-item{
+            color: #20123a;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .p2-item{
+            color: #e30d6a;
+            font-size: 28px;
+        }
+
+        .input_search{
+            color: #212529;
+            width: 300px;
+            padding: 7px;
+            margin: 10px 0;
+            border-radius: 3px;
+            border: none;
+        }
+        .btn-search{
+            margin: 10px 0;
+            padding: 7px;
+            background: #e30d6a;
+            border: none;
+        }
+        .btn-search:hover{
+            background: #20123a;
+        }
+    }
+
+}
+
+.bande_stat{
+    background: #e1e1e1;
+    color:#e30d6a;
+
+
+    .bande_stat_p{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .bande_stat_p_item{
+        font-size: 24px;
+        color: #20123a;
+    }
+}
+
+input.form-control, select.form-control{
+    height: 45px !important;
+    border: 2px solid rgb(230, 236, 240) !important;
+    background: #eee !important;
+    border-radius: 9900px;
+}
+
+.title{
+    color: #e30d6a;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+.label{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+  .btn-success, .btn-success:hover {
+      background: #e30d6a !important;
+      border: 2px solid  #e30d6a !important;
+      border-radius: 9999px;
+  }
+  .presentation-img{
+      height: 450px;
+  }
+
+  .card-img{
+      height: 250px;
+  }
+  .card-img-overlay{
+      color: white;
+  }
+
+  .image-upload>input {
+    display: none;
+  }
+
+.footer{
+    h4{
+        color:#e30d6a;
+        font-weight: bold;
+        padding: 20px 0;
+
+
+    }
+}
+.btn-inscrit , .btn-inscrit:hover {
+    background: #20123a;
+    border: none;
+}
+
+
+
+
+
+/* Candidat */
+
+
+.cand_card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1rem rgba(0,0,0,0.2);
+
+  .banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+
+    .img {
+        background-color: #fff;
+        width: 8rem;
+        height: 8rem;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+        border-radius: 50%;
+        margin-top: 20px;
+      }
+
+  }
+
+  .name {
+    text-align: center;
+    color: #e30d6a;
+    padding: 10px;
+    margin: 0;
+  }
+  .title {
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .actions {
+    .follow-info p{
+        text-align: center;
+    }
+
+    .btn_plus {
+        background-color:#20123a;
+        border: #20123a;
+
+      }
+      .btn_plus:hover {
+        background-color: #20123a;
+        border: #20123a;
+        transform: scale(1.1);
+      }
+      .btn_plus:active {
+        background-color: #20123a;
+        border: #20123a;
+        transform: scale(1);
+      }
+  }
+
+}
+
+
+.action_url{
+    border-bottom: 2px solid #fff;
+}
+
+
+
+
+
+.button-wrapper {
+    position: relative;
+    width: 150px;
+    text-align: center;
+    margin: 20% auto;
+  }
+
+  .button-wrapper span.label {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 100%;
+    background: #00bfff;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 0;
+    text-transform:uppercase;
+    font-size:12px;
+  }
+
+
+
+  .button-wrapper svg {
+    position: relative;
+    z-index: 0;
+  }
+
+  #upload {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      opacity: 0;
+  }
+
+
+  .image-upload>input {
+    display: none;
+  }
+
+  .btn-connect{
+    background: #20123a;
+    border: none;
+    border-radius: 30px ;
+    padding: 10px 30px;
+    font-weight: 900;
+  }
+
+  .btn-connect:hover{
+      background: #20123a;
+      color: #e30d6a;
+  }
